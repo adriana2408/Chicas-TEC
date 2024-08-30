@@ -1,4 +1,5 @@
-let letras = ["a", "b", "c", "a", "d", "e", "f", "a", "g", "h"];
+
+/*let letras = ["a", "b", "c", "a", "d", "e", "f", "a", "g", "h"];
 console.log(letras)
 
 // .indexOf(elemento, desde)
@@ -21,3 +22,20 @@ console.log("lastIndexOF");
 console.log(letras.lastIndexOf("a"));
 
 console.log(letras.lastIndexOf("a", 1));
+
+console.log("includes");
+console.log(letras.includes("c"));
+console.log(Letras.includes("c", 3));
+ */
+
+let nums = [34, 65, 23, 45, 96, 143, 4, 56];
+console.log(nums);
+
+let coincidencia = nums.find((num) => num > 60);
+let coincidenciaIndex = num.findIndex((num) => num > 60);
+
+let filtrado = nums.filter((num) => num > 60);
+
+console.log(coincidencia);
+console.log(coincidenciaIndex);
+console.log(filtrado);
