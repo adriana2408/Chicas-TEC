@@ -1,3 +1,4 @@
+/*
 let nums = [1, 2, 3, 4, 5];
 console.log(nums)
 
@@ -34,3 +35,36 @@ let clasificacion = palabras.map((palabra) => {
 });
 
 console.log(clasificacion);
+
+// .reduce()
+// El método reduce() aplica una función a un acumulador y a cada valor de un array(de izquierda a derecha) para reducirlo a un único valor.
+// 4 -> Dado el siguiente array de números, sumar todos los números
+
+const nums = [1, 2, 3, 4, 5];
+console.log(nums);
+
+// Agregamos el elemento neutro para iniciar la suma
+let suma = nums.reduce((a, b) => a + b, 0);
+
+console.log(suma);
+
+// 5 -> Usando el mismo array, multiplicar todos los números
+let multiplicacion = nums.reduce((a, b) => a * b, 1);
+console.log(multiplicacion);
+
+*/
+
+// .sort(funcionDeComparacion)
+// El método sort() ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado. La ordenación no es necesariamente estable. El modo de ordenación por defecto responde a la posición del valor del string de cada elemento en Unicode.
+let puntos = [11, 2, 1, 21, 23, 10];
+console.log(puntos);
+
+// Ordeno el arreglo por defecto
+puntos.sort();
+console.log("Ordenamiento por defecto");
+console.log(puntos);
+
+// Ordenamiento numérico estricto
+puntos.sort((a, b) => a - b);
+console.log("Ordenamiento numérico estricto");
+console.log(puntos);
