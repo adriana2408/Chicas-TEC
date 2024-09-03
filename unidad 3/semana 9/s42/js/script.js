@@ -16,7 +16,6 @@ console.log(letras.indexOf("a", 4));
 
 // Buscamos un elemento que no existe en el arreglo
 console.log(letras.indexOf("x"));
-
 console.log("lastIndexOF");
 
 console.log(letras.lastIndexOf("a"));
