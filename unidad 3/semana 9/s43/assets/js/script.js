@@ -52,7 +52,6 @@ console.log(suma);
 let multiplicacion = nums.reduce((a, b) => a * b, 1);
 console.log(multiplicacion);
 
-*/
 
 // .sort(funcionDeComparacion)
 // El método sort() ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado. La ordenación no es necesariamente estable. El modo de ordenación por defecto responde a la posición del valor del string de cada elemento en Unicode.
@@ -68,3 +67,39 @@ console.log(puntos);
 puntos.sort((a, b) => a - b);
 console.log("Ordenamiento numérico estricto");
 console.log(puntos);
+
+
+
+const arr = [true, 1, "hola", 54.76, "a"];
+console.log(arr);
+
+// Revertimos el arreglo
+arr.reverse();
+console.log(arr);
+*/
+
+//split()
+//El método split() divide un obejto de tipo String en array (vector) de cadenas mediante la separación de la cadena en subcadenas
+console.log("split");
+const frase = "Hola buenos días a todas";
+console.log(frase);
+
+//Creamos el array usando espacios como separador
+let palabras = frase.split(" ");
+console.log(palabras);
+
+const csv = "Perú, Argentina, Chile, Colombia"; console.log(csv);
+
+// Creamos el array usando la coma (,) como separador
+let paises = csv.split(",");
+console.log(paises);
+
+// join()
+// El método join() une todos los elementos de un array en una cadena y devuelve esta cadena. Por defecto, los elementos se separan con una coma (", ").
+console.log("join");
+
+let strPalabras = palabras.join(" ");
+console.log(strPalabras);
+
+let strPaises = paises.join();
+console.log(strPaises);
