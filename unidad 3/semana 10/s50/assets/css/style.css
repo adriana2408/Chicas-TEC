@@ -1,7 +1,13 @@
 body {
-  background-color: aqua;
+  background-color: #e0f7fa;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
 }
 
 p {
-  background-color: rgb(13, 28, 112);
+  background-color: #0d1c70;
+  color: white;
+  padding: 10px;
+  border-radius: 5px; /
 }
