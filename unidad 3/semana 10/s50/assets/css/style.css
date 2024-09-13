@@ -1,13 +1,18 @@
 body {
-  background-color: #e0f7fa;
+  background-color: #fcb78a;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   padding: 20px;
 }
 
 p {
-  background-color: #0d1c70;
-  color: white;
+  background-color: #f173d6;
+  color: rgb(39, 248, 133);
   padding: 10px;
   border-radius: 5px; /
+}
+
+h1 {
+  background-color: #020202;
+  color: rgb(255, 255, 255);
 }
