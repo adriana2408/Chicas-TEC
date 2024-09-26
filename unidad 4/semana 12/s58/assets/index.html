@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="es-pe">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sesion 58</title>
+    <!--BOOTSTRAP CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--Componentes-->
+    <main class="container">
+      <h1>Sesion 58</h1>
+      <!--Acordion-->
+      <h3 class="text-primary">Saga de Meses a tu lado 📖✨</h3>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Antes de diciembre ❣
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="bg-warning accordion-body">
+              La historia sigue a los protagonistas mientras enfrentan sus
+              miedos y deseos en un contexto de amor y autodescubrimiento,
+              explorando cómo las decisiones del pasado influyen en su presente.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Después de diciembre 💘
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Continuando la trama, los personajes deben lidiar con las
+              consecuencias de sus elecciones y el impacto que tienen en sus
+              relaciones, mientras buscan la manera de reconciliar sus
+              sentimientos.​
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Tres meses 💜
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              En este libro, los protagonistas viven intensos momentos que ponen
+              a prueba su amor y confianza, explorando la evolución de su
+              relación a lo largo de un periodo crítico en sus vidas.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFor"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Las luces de febrero ✨
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFor"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Culminando la saga, la historia se centra en la resolución de
+              conflictos y el cierre de ciclos, destacando el crecimiento
+              personal y la esperanza en el amor a medida que enfrentan nuevos
+              comienzos.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <h3>Buttons</h3>
+      <button type="button" class="btn">Base class</button>
+
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+      <button type="button" class="btn btn-link">Link</button>
+      <br /><br />
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-secondary">Secondary</button>
+      <button type="button" class="btn btn-outline-success">Success</button>
+      <button type="button" class="btn btn-outline-danger">Danger</button>
+      <button type="button" class="btn btn-outline-warning">Warning</button>
+      <button type="button" class="btn btn-outline-info">Info</button>
+      <button type="button" class="btn btn-outline-light">Light</button>
+      <button type="button" class="btn btn-outline-dark">Dark</button>
+      <br /><br />
+      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+      <button type="button" class="btn btn-secondary btn-lg">
+        Large button
+      </button>
+      <br /><br />
+      <button type="button" class="btn btn-primary btn-sm">Small button</button>
+      <button type="button" class="btn btn-secondary btn-sm">
+        Small button
+      </button>
+      <br /><br />
+      <p class="d-inline-flex gap-1">
+        <button type="button" class="btn" data-bs-toggle="button">
+          Toggle button
+        </button>
+        <button
+          type="button"
+          class="btn active"
+          data-bs-toggle="button"
+          aria-pressed="true"
+        >
+          Active toggle button
+        </button>
+        <button type="button" class="btn" disabled data-bs-toggle="button">
+          Disabled toggle button
+        </button>
+      </p>
+      <p class="d-inline-flex gap-1">
+        <button type="button" class="btn btn-primary" data-bs-toggle="button">
+          Toggle button
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary active"
+          data-bs-toggle="button"
+          aria-pressed="true"
+        >
+          Active toggle button
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          disabled
+          data-bs-toggle="button"
+        >
+          Disabled toggle button
+        </button>
+      </p>
+      <br /><br />
+      <div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-primary" type="button">Button</button>
+        <button class="btn btn-primary" type="button">Button</button>
+      </div>
+      <br />
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button">Button</button>
+        <button class="btn btn-primary" type="button">Button</button>
+      </div>
+      <hr />
+      <!--Buttons groups-->
+      <h3>Buttons group</h3>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
+      </div>
+      <div
+        class="btn-group"
+        role="group"
+        aria-label="Basic mixed styles example"
+      >
+        <button type="button" class="btn btn-danger">1</button>
+        <button type="button" class="btn btn-warning">2</button>
+        <button type="button" class="btn btn-success">3</button>
+      </div>
+      <div
+        class="btn-group"
+        role="group"
+        aria-label="Basic checkbox toggle button group"
+      >
+        <input
+          type="checkbox"
+          class="btn-check"
+          id="btncheck1"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-primary" for="btncheck1"
+          >Checkbox 1</label
+        >
+
+        <input
+          type="checkbox"
+          class="btn-check"
+          id="btncheck2"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-primary" for="btncheck2"
+          >Checkbox 2</label
+        >
+
+        <input
+          type="checkbox"
+          class="btn-check"
+          id="btncheck3"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-primary" for="btncheck3"
+          >Checkbox 3</label
+        >
+      </div>
+      <div
+        class="btn-group btn-group-lg"
+        role="group"
+        aria-label="Large button group"
+      >
+        <button type="button" class="btn btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-outline-primary">Right</button>
+      </div>
+      <br />
+      <div class="btn-group" role="group" aria-label="Default button group">
+        <button type="button" class="btn btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-outline-primary">Right</button>
+      </div>
+      <br />
+      <div
+        class="btn-group btn-group-sm"
+        role="group"
+        aria-label="Small button group"
+      >
+        <button type="button" class="btn btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-outline-primary">Right</button>
+      </div>
+      <div
+        class="btn-group btn-group-lg"
+        role="group"
+        aria-label="Large button group"
+      >
+        <button type="button" class="btn btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-outline-primary">Right</button>
+      </div>
+      <br />
+
+      <br />
+      <div
+        class="btn-group btn-group-sm"
+        role="group"
+        aria-label="Small button group"
+      >
+        <button type="button" class="btn btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-outline-primary">Right</button>
+      </div>
+      <div
+        class="btn-group"
+        role="group"
+        aria-label="Button group with nested dropdown"
+      >
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-primary">2</button>
+
+        <div class="btn-group" role="group">
+          <button
+            type="button"
+            class="btn btn-primary dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Dropdown
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="btn-group-vertical"
+        role="group"
+        aria-label="Vertical radio toggle button group"
+      >
+        <input
+          type="radio"
+          class="btn-check"
+          name="vbtn-radio"
+          id="vbtn-radio1"
+          autocomplete="off"
+          checked
+        />
+        <label class="btn btn-outline-danger" for="vbtn-radio1">Radio 1</label>
+        <input
+          type="radio"
+          class="btn-check"
+          name="vbtn-radio"
+          id="vbtn-radio2"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-danger" for="vbtn-radio2">Radio 2</label>
+        <input
+          type="radio"
+          class="btn-check"
+          name="vbtn-radio"
+          id="vbtn-radio3"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-danger" for="vbtn-radio3">Radio 3</label>
+      </div>
+
+      <!--Cards-->
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://cdn.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_H.jpg?crop=16:9&width=960&enable=upscale&quality=100"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Perrito</h5>
+          <p class="card-text">
+            Este perrito, llamado "Bingo", es un adorable compañero que vino de
+            un refugio local. Su nombre proviene de un juego infantil,
+            reflejando su espíritu juguetón y alegre. Con su energía contagiosa
+            y amor incondicional, Bingo ilumina la vida de todos a su
+            alrededor..
+          </p>
+          <a href="#" class="btn btn-success">Ver más</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://definicion.de/wp-content/uploads/2013/03/perro-1.jpg"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum qui
+            optio impedit nam maxime hic, ex cum possimus adipisci nulla
+            voluptatem blanditiis maiores vel et voluptatum, corrupti doloremque
+            modi iusto?
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-info">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <img
+          src="https://definicion.de/wp-content/uploads/2013/03/cachorro.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <p class="card-text">
+            <small class="text-body-warning">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://estaticos-cdn.prensaiberica.es/clip/823f515c-8143-4044-8f13-85ea1ef58f3a_16-9-discover-aspect-ratio_default_0.webp"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Last updated 3 mins ago</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Carrusel-->
+      <h3>Carrusel</h3>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://estaticos-cdn.prensaiberica.es/clip/eed2851e-a392-4ce0-9fc5-c805b2ed61c1_woman-libre-1200_default_0.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+            <img src="" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Gatito 1</h5>
+              <p>Me gusta enredarme en las sabanas</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.infobae.com/new-resizer/aMPQEOF2V0cScCtLvkObbPfM8pw=/768x432/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/04/06155038/perro-beso-1024x576.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Gatito 2</h5>
+              <p>Programar es mi pasion</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.infobae.com/new-resizer/83D5tQrZqbVHH5npH8yFYYTzP4c=/768x432/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/04/06155006/perro-beso-3-1024x576.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Perritooo</h5>
+              <p>Vivan los animalitos</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+      <!--<div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="https://estaticos-cdn.prensaiberica.es/clip/d0f617a6-23bd-4bf2-97d9-e8fc1b631239_16-9-discover-aspect-ratio_default_0.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Gatito 1</h5>
+          <p>Me gusta enredarme en las sabanas</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://img2.rtve.es/i/?w=1600&i=1618587961630.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Gatito 2</h5>
+          <p>Programar es mi pasion</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://imagenes.heraldo.es/files/image_1920_1080/uploads/imagenes/2024/01/26/gatito-gato-gsc1.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Gatito 3</h5>
+          <p>Soy muy jugueton</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>-->
+    </main>
+    <!--Usando background - script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
